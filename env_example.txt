@@ -1,0 +1,17 @@
+# WarpStream API Configuration
+WARPSTREAM_BOOTSTRAP_SERVERS=your-cluster.warpstream.com:9092
+WARPSTREAM_API_KEY=your_warpstream_api_key_here
+
+# Security Configuration
+WARPSTREAM_SECURITY_PROTOCOL=SASL_SSL
+WARPSTREAM_SASL_MECHANISM=PLAIN
+
+# Application Configuration
+APP_ENV=development
+LOG_LEVEL=INFO
+METRICS_ENABLED=true
+HEALTH_CHECK_PORT=8080
+
+# Optional: Alternative cluster for failover
+WARPSTREAM_SECONDARY_BOOTSTRAP_SERVERS=your-secondary-cluster.warpstream.com:9092
+WARPSTREAM_SECONDARY_API_KEY=your_secondary_api_key_here 
